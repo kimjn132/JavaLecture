@@ -1,0 +1,36 @@
+package com.bootcamp.client.command;
+
+import java.text.ParseException;
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.bootcamp.client.dao.BCBookDao;
+import com.bootcamp.client.dao.ReviewDao;
+import com.bootcamp.dto.regcampDto;
+import com.bootcamp.dto.reviewDto;
+
+public class BCDetailCommand implements BCCommand {
+
+	@Override
+	public void execute(HttpServletRequest request, HttpServletResponse response) {
+		// TODO Auto-generated method stub
+			
+		String regSeq = request.getParameter("regSeq");
+		BCBookDao dao = new BCBookDao();
+		regcampDto dto = dao.DetailView(regSeq); // 다오한테 받은 bId를 dto에 보냄 
+
+		request.setAttribute("DetailView", dto);
+		System.out.println("BCDtailCommand" + regSeq);
+		
+		
+		
+	}
+	
+	
+	public Boolean execute1(HttpServletRequest request, HttpServletResponse response) {
+		return null;
+	}
+
+}

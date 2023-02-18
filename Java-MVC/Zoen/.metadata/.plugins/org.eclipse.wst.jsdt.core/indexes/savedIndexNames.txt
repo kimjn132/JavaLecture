@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+/Users/annakim/Desktop/Zoen/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+530908247.index
+3797568766.index
+2973027775.index
+1185497118.index
+3788972179.index
+2771074098.index
+2568191575.index
+2259441133.index
+728447005.index

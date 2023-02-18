@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="nav-scroller"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="nav-scroller"/>
+			<item value="b-example-vr"/>
+			<item value="BProductDeleteCommand"/>
+			<item value="BProductdeleteCommand"/>
+			<item value="BProductdeleteCommandv"/>
+			<item value="BProductDeleteCommandv"/>
+			<item value="CustomerOrder.jsp&#x0A;deliveryCo_contentView.jsp&#x0A;deliveryCo_list.jsp&#x0A;deliveryCo_registrationView.jsp&#x0A;deliveryCo_writeView.jsp&#x0A;deliveryList.jsp&#x0A;Home.jsp&#x0A;index.html&#x0A;login.jsp&#x0A;manager_page.jsp&#x0A;memberRegist.jsp&#x0A;OrderDone.jsp&#x0A;productAdd.jsp&#x0A;ProductDetail.jsp&#x0A;ProductList.jsp&#x0A;productListj.jsp&#x0A;productView.jsp"/>
+			<item value="on"/>
+			<item value="head"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="785"/>
+		<item key="DIALOG_Y_ORIGIN" value="141"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="402"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

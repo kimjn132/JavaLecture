@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=mvcBoard_01/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springlec.base.dao{BDao.java[BDao" modifiers="513" timestamp="1668651462000"/>
+    <typeInfo handle="=MVC-Line/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springlec.base.dao{BDao.java[BDao" modifiers="513" timestamp="1668672371000"/>
+    <typeInfo handle="=mvcBoard_Address/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springlec.base.dao{BDao.java[BDao" modifiers="513" timestamp="1668677763000"/>
+    <typeInfo handle="=mvcBoard_Address/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springlec.base.service{BDaoService.java[BDaoService" modifiers="513" timestamp="1668677453000"/>
+    <typeInfo handle="=mvcBoard_Search/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springlec.base.dao{BDao.java[BDao" modifiers="513" timestamp="1668736719000"/>
+    <typeInfo handle="=mvcBoard_Search/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springlec.base.service{BDaoService.java[BDaoService" modifiers="513" timestamp="1668736740000"/>
+    <typeInfo handle="=Hoping/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springlec.base.dao{ClientDao.java[ClientDao" modifiers="513" timestamp="1668753574000"/>
+    <typeInfo handle="=Hoping/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springlec.base.service{ClientDaoService.java[ClientDaoService" modifiers="513" timestamp="1668753685000"/>
+</typeInfoHistroy>

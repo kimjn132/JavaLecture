@@ -1,0 +1,73 @@
+1667725750252	Rename type 'HDto'
+1667726675053	Rename type 'HShowInfoCommand'
+1667783803399	Rename type 'HInfoModifyCommand'
+1667798781302	Delete element
+1667799546040	Delete element
+1667807007522	Rename package 'com.jspproject.homecontroller'
+1667807026656	Rename package 'com.jspproject.host.command'
+1667807046592	Rename package 'com.jspproject.host.dao'
+1667807059899	Rename package 'comj.jspproject.host.dto'
+1667819659848	Copy files
+1667819744998	Rename package 'comj.bootcamp.host.dto'
+1667819816682	Copy compilation units
+1667819884802	Copy packages
+1667820071821	Rename type 'homeController'
+1667820081053	Copy package
+1667836252767	Rename type 'HDao'
+1667836307768	Rename type 'askDto'
+1667836471998	Rename package 'comj.bootcamp.dto'
+1667886344293	Delete element
+1667887011330	Delete element
+1667887941362	Delete element
+1667892848505	Rename type 'BFrontController'
+1667892901074	Rename type 'HCommand'
+1667909265037	Delete element
+1667909618162	Rename resource 'hostMyPage.jsp'
+1667983823259	Delete elements
+1667983838058	Delete element
+1667983858460	Delete elements
+1667983877509	Delete elements
+1667983895390	Delete element
+1667983913702	Delete elements
+1668002380484	Delete elements
+1668002423851	Delete elements
+1668002437486	Delete element
+1668002459005	Delete elements
+1668002478689	Delete elements
+1668002494533	Delete elements
+1668002798226	Delete elements
+1668002825176	Delete elements
+1668002841100	Delete elements
+1668002857949	Delete elements
+1668002877307	Delete elements
+1668059412635	Rename resource 'Hostimage'
+1668065809882	Delete elements
+1668065824483	Delete element
+1668065844062	Delete elements
+1668065941599	Delete elements
+1668065962959	Delete elements
+1668066003394	Delete elements
+1668070251498	Rename type 'HostTermsAD'
+1668084407311	Delete element
+1668084872440	Rename type 'HostInfoMCommand'
+1668085359220	Rename resource 'HostJoinM.jsp'
+1668085367878	Rename resource 'myPage.jsp'
+1668086032175	Delete element
+1668086039089	Delete element
+1668097299551	Delete element
+1668099004051	Rename type 'HostInfoCommand'
+1668099015488	Rename type 'HostmyInfoCommand'
+1668099327303	Delete element
+1668101926319	Rename resource 'myPage.jsp'
+1668132385420	Copy compilation units
+1668132431416	Copy compilation units
+1668132482645	Copy compilation units
+1668132521412	Copy compilation units
+1668134923575	Copy files
+1668279538944	Delete elements
+1668279566242	Delete element
+1668279793404	Delete elements
+1668279822035	Delete elements
+1668279839820	Delete elements
+1668279872166	Delete elements
+1668279915339	Delete elements

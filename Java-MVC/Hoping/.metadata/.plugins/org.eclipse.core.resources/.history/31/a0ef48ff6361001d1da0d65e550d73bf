@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ClientHostConnect">
+        <property name="context-root" value="ClientHostConnect"/>
+        <property name="java-output-path" value="/ClientHostConnect/build/classes"/>
+    </wb-module>
+</project-modules>

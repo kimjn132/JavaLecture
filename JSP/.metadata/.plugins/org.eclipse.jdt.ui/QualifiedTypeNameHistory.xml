@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.ZCommand"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.OrderProductListCommand"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.ZOrderProductListCommand1"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.ZOrderProductListCommand2"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.dto.ZDto"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.dao.ZDao"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.ZCustomerCommand"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.ZOrderCommand"/>
+    <fullyQualifiedTypeName name="javax.security.auth.message.callback.PrivateKeyCallback.Request"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.Session"/>
+    <fullyQualifiedTypeName name="javax.servlet.SessionTrackingMode"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>

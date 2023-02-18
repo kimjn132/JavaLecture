@@ -1,0 +1,244 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author"
+	content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="generator" content="Hugo 0.104.2">
+<title>Album example · Bootstrap v5.2</title>
+
+<link rel="canonical"
+	href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+
+
+
+
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+	crossorigin="anonymous">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon"
+	href="/docs/5.2/assets/img/favicons/apple-touch-icon.png"
+	sizes="180x180">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png"
+	sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png"
+	sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+<link rel="mask-icon"
+	href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg"
+	color="#712cf9">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+
+
+<style>
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media ( min-width : 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+.b-example-divider {
+	height: 3rem;
+	background-color: rgba(0, 0, 0, .1);
+	border: solid rgba(0, 0, 0, .15);
+	border-width: 1px 0;
+	box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em
+		rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+	flex-shrink: 0;
+	width: 1.5rem;
+	height: 100vh;
+}
+
+.bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+}
+
+.nav-scroller {
+	position: relative;
+	z-index: 2;
+	height: 2.75rem;
+	overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+	display: flex;
+	flex-wrap: nowrap;
+	padding-bottom: 1rem;
+	margin-top: -1px;
+	overflow-x: auto;
+	text-align: center;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+}
+
+.card-margin {
+
+	margin: 0px, 20px, 10px, 20px;
+}
+</style>
+
+
+</head>
+<body>
+
+	<header>
+		<div class="collapse bg-dark" id="navbarHeader">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-md-7 py-4">
+						<h4 class="text-white">About</h4>
+						<p class="text-muted">Add some information about the album
+							below, the author, or any other background context. Make it a few
+							sentences long so folks can pick up some informative tidbits.
+							Then, link them off to some social networking sites or contact
+							information.</p>
+					</div>
+					<div class="col-sm-4 offset-md-1 py-4">
+						<h4 class="text-white">Contact</h4>
+						<ul class="list-unstyled">
+							<li><a href="#" class="text-white">Follow on Twitter</a></li>
+							<li><a href="#" class="text-white">Like on Facebook</a></li>
+							<li><a href="#" class="text-white">Email me</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="navbar navbar-dark bg-dark shadow-sm">
+			<div class="container">
+				<a href="#" class="navbar-brand d-flex align-items-center"> <svg
+						xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+						fill="none" stroke="currentColor" stroke-linecap="round"
+						stroke-linejoin="round" stroke-width="2" aria-hidden="true"
+						class="me-2" viewBox="0 0 24 24">
+						<path
+							d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+						<circle cx="12" cy="13" r="4" /></svg> <strong>Shoes</strong>
+				</a>
+				<button class="navbar-toggler" type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+					aria-controls="navbarHeader" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span><strong><%=session.getAttribute("CID") %></strong></span>
+				</button>
+
+			</div>
+		</div>
+	</header>
+
+	<main>
+
+		<section class="py-5 text-center container">
+			<div class="row py-lg-5">
+				<div class="col-lg-6 col-md-8 mx-auto">
+					<h1 class="fw-light">Shoes 베스트 상품</h1>
+					<p class="lead text-muted">
+						이 달 가장 많이 팔리는 신발입니다. 당신도 구입해야 합니다.<br> 꼭 구매해주세요 제발!!!
+					</p>
+					<p>
+						<a href="content_viewDelivery.do" class="btn btn-primary my-2">이달의
+							신발 사러 가기</a>
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<form action="list.do" method="post">
+			<div class="album py-5 bg-light">
+				<div class="container">
+				<div class="row justify-container-center">
+					<c:forEach items="${list}" var="dto">
+
+
+							<div class="card card-margin col-md-4 shadow-sm" style="margin: 0px, 20px, 10px, 20px;">
+								<svg class="bd-placeholder-img card-img-top" width="100%"
+									height="225" xmlns="data:image/jpeg;base64,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" role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice" focusable="false">
+											<rect width="100%" height="100%" fill="#55595c" />
+											<text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+								<div class="card-body">
+									<p class="card-text">${dto.pName}</p>
+									<p class="card-text">${dto.pDetail}</p>
+									<p class="card-text">${dto.pSaleprice}원</p>
+									<div
+										class="d-flex flex-row justify-content-between align-items-center">
+										<div class="btn-group">
+											<button type="button"
+												class="btn btn-sm btn-outline-secondary">
+												<a href="detail.do?pId=${dto.pId}">View</a>
+											</button>
+										</div>
+										<small class="text-muted">9 mins</small>
+									</div>
+
+							</div>
+
+
+						</div>
+
+
+					</c:forEach>
+					</div>
+				</div>
+			</div>
+		</form>
+	</main>
+
+
+
+
+	<footer class="text-muted py-5">
+		<div class="container">
+
+
+
+			<p class="float-end mb-1">
+				<a href="#">Back to top</a>
+			</p>
+			<p class="mb-1">Album example is &copy; Bootstrap, but please
+				download and customize it for yourself!</p>
+			<p class="mb-0">
+				New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a
+					href="/docs/5.2/getting-started/introduction/">getting started
+					guide</a>.
+			</p>
+		</div>
+	</footer>
+
+
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"></script>
+
+
+</body>
+</html>

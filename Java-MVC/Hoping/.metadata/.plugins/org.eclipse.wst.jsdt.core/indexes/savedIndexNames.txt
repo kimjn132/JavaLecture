@@ -1,0 +1,15 @@
+INDEX VERSION 1.4+/Users/annakim/Desktop/Hoping/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2207486370.index
+3897638194.index
+951825495.index
+1693877418.index
+3882964349.index
+2867708152.index
+2510778220.index
+3243717033.index
+2533139859.index
+2678446577.index
+2377405757.index
+1967533748.index
+3585291979.index
+2435261346.index

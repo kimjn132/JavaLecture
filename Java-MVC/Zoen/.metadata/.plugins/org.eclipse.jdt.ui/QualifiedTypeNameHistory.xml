@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.BLoginCommand"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.BInsertCustomerCommand"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.BContentCustomerCommand"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.BModifyCustomerCommand"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.BDeleteCustomerCommand"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.BInsertDeliveryCommand"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.BContentDeliveryCommand"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.BModifyDeliveryCommand"/>
+    <fullyQualifiedTypeName name="com.jsplec.bss.command.BDeleteDeliveryCommand"/>
+    <fullyQualifiedTypeName name="com.jsplec.bbs.dto.ZDto"/>
+    <fullyQualifiedTypeName name="com.jsplec.bbs.command.ZOrderRecentView"/>
+    <fullyQualifiedTypeName name="com.jsplec.bbs.command.DModifyCommand"/>
+</qualifiedTypeNameHistroy>

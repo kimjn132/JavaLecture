@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 packages to &apos;Zoen/src/main/java&apos;&#x0A;- Original project: &apos;Zoen2&apos;&#x0A;- Destination element: &apos;Zoen/src/main/java&apos;&#x0A;- Original elements:&#x0A;     Zoen2/src/main/java/com.jsplec.bss.dao&#x0A;     Zoen2/src/main/java/com.jsplec.bss.homecontroller&#x0A;     Zoen2/src/main/java/com.jsplec.bss.dto&#x0A;     Zoen2/src/main/java/com.jsplec.bss.command" description="Copy packages" destination="=Zoen/src\/main\/java" element1="/src\/main\/java&lt;com.jsplec.bss.dao" element2="/src\/main\/java&lt;com.jsplec.bss.homecontroller" element3="/src\/main\/java&lt;com.jsplec.bss.dto" element4="/src\/main\/java&lt;com.jsplec.bss.command" flags="589830" fragments="4" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1667031611710" version="1.0"/>
+</session>
